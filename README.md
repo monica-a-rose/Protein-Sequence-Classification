@@ -1,5 +1,9 @@
 # Fine-tuning ESM-2 for Protein Subcellular Localization
 
+---
+### [**Click Here to View the Full Project Report (PDF)**](Protein_Sequence_Classification_Report.pdf)
+---
+
 ## Project Overview
 
 This project demonstrates a complete end-to-end workflow for fine-tuning a pre-trained ESM-2 transformer model to predict protein subcellular localization (Cytoplasm vs. Nucleus). Using a dataset of 3,575 protein sequences from UniProt, this project covers data cleaning, exploratory data analysis, a robust training pipeline, and model evaluation.
