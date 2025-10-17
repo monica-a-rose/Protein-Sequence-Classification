@@ -1,12 +1,11 @@
 # Fine-tuning ESM-2 for Protein Subcellular Localization
 
----
-### [**Click Here to View the Full Project Report (PDF)**](Protein_Sequence_Classification_Report.pdf)
+### 📖 [View the Full Project Report (PDF)](Protein_Sequence_Classification_Report.pdf)
 ---
 
 ## Project Overview
 
-This project demonstrates a complete end-to-end workflow for fine-tuning a pre-trained ESM-2 transformer model to predict protein subcellular localization (Cytoplasm vs. Nucleus). Using a dataset of 3,575 protein sequences from UniProt, this project covers data cleaning, exploratory data analysis, a robust training pipeline, and model evaluation.
+This project demonstrates a complete end-to-end workflow for fine-tuning a pre-trained ESM-2 transformer model to predict protein subcellular localization (Cytoplasm vs. Nucleus). Using a dataset of protein sequences from UniProt, this project covers data cleaning, exploratory data analysis, a robust training pipeline, and model evaluation.
 
 The final model achieves a **ROC-AUC Score of 0.9184** and a **Test Accuracy of 85.3%**, showcasing the power of protein language models for bioinformatics tasks.
 
@@ -32,9 +31,9 @@ The final model achieves a **ROC-AUC Score of 0.9184** and a **Test Accuracy of 
 
 ---
 
-## Data
+## Dataset
 
-The dataset (`uniprot_protein_data_assigment.csv`) is included in the `/Data` directory. It contains protein sequences from UniProt and their corresponding subcellular location labels (Nucleus or Cytoplasm).
+The data for this project consists of 3,575 protein sequences and their subcellular localization (Nucleus vs. Cytoplasm), originally sourced from the **UniProt database**.
 
 ---
 
